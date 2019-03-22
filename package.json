@@ -1,0 +1,21 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Lisa's friend finder app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisa84ibouge/friendfinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisa84ibouge/friendfinder/issues"
+  },
+  "homepage": "https://github.com/lisa84ibouge/friendfinder#readme"
+}
