@@ -269,17 +269,21 @@
 					$('#question9').val().trim(),
 					$('#question10').val().trim()
 				]
-			};
+            };
+            
+            var currentURL = window.location.origin;
 			// console.log('userInput = ' + JSON.stringify(userInput));
 			// Add user inputs to friends list
-			$.post('/api/friends', userInput)
+			$.post(currentURL + '/api/friends', userInput)
       		.done(function(data) {
       			// console.log('response = ' + JSON.stringify(data));
       			// Set the name and image values of friend match
       			$('#userMatch').html(data.matchName);
 		    	$("#userMatchImage").attr("src", data.matchImage);
 		    	// Pop open the modal dialog
-      			$('#modal1').modal('open');
+                  $('#modal1').modal('open');
+                  
+                  alert("working")
       		});
 		});
 	</script>
