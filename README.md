@@ -1,6 +1,7 @@
 # friendfinder
 
 Lisa's friend finder app
+
 The Friendfinder app is a JavaScript application that runs with Node and Express servers. 
 
 The program can be run by going to the link deployed by Heroku. The friend finder application allows the user to fill out 10 questions and be matched with their closest compatible friend based on their answers to the questions. 
