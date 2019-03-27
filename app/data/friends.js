@@ -61,11 +61,49 @@ var friends = [
       4, 
       1,
       5
-],
+],   
+   },   {"name": "Kelly Rowlett", 
+    "photo": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/49690827_10213430373061228_2560068694763896832_n.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=3d312f2d4dcf6d9135e74f046b8488e6&oe=5D0F0F58",
+    "scores": [
+        5, 
+        4,
+        1,
+        2,
+        3,
+        2,
+        5,
+        2,
+        3,
+        5
+      ]
+    }
 
 
 
-  }
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
 ]
 
 module.exports = friends;
