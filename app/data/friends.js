@@ -75,8 +75,25 @@ var friends = [
         2,
         3,
         5
+      ], }, {"name": "Gerald Rowlett",
+      "photo": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/52179316_10216283680078937_433048942431698944_n.jpg?_nc_cat=107&_nc_ht=scontent-sea1-1.xx&oh=f5627d9f943bacd8af8091ee8b643e0b&oe=5D0EC8D9",
+      "scores": [
+       
+       
+        5,
+        3,
+        3,
+        1,
+        5,
+        1,
+        3,
+        2,
+        4,
+        10
+
       ]
     }
+    
 
 
 
